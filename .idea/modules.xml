@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AdapterViews3.iml" filepath="$PROJECT_DIR$/AdapterViews3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activitylifecycle/activitylifecycle.iml" filepath="$PROJECT_DIR$/activitylifecycle/activitylifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/customviews/customviews.iml" filepath="$PROJECT_DIR$/customviews/customviews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/providingresources/providingresources.iml" filepath="$PROJECT_DIR$/providingresources/providingresources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewanimations/viewanimations.iml" filepath="$PROJECT_DIR$/viewanimations/viewanimations.iml" />
     </modules>
   </component>
 </project>
