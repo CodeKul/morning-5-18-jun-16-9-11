@@ -1,1 +1,1 @@
-include ':app', ':customviews', ':viewanimations', ':activitylifecycle', ':providingresources'
+include ':app', ':customviews', ':viewanimations', ':activitylifecycle', ':providingresources', ':handlingruntimechangessecond', ':fragments'

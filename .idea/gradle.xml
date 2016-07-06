@@ -11,6 +11,8 @@
             <option value="$PROJECT_DIR$/activitylifecycle" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/customviews" />
+            <option value="$PROJECT_DIR$/fragments" />
+            <option value="$PROJECT_DIR$/handlingruntimechangessecond" />
             <option value="$PROJECT_DIR$/providingresources" />
             <option value="$PROJECT_DIR$/viewanimations" />
           </set>
@@ -21,6 +23,8 @@
             <option value="$PROJECT_DIR$/activitylifecycle" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/customviews" />
+            <option value="$PROJECT_DIR$/fragments" />
+            <option value="$PROJECT_DIR$/handlingruntimechangessecond" />
             <option value="$PROJECT_DIR$/providingresources" />
             <option value="$PROJECT_DIR$/viewanimations" />
           </set>
