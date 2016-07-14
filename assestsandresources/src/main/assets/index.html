@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      // vanila JS
+
+      // ajax
+      function clicked(){
+
+        var text = document.getElementById('textSomeData');
+        text.value = 'Angular Just begining';
+      }
+
+      function changeLable(input,label){
+        label.innerHTML = input.value;
+      }
+
+      function  makeWebCall(){
+
+          var ul = document.getElementById('ulCar');
+
+          var cars = ['Audi','Bmw','Mercedez','Dodge','Land Cruiser'];
+
+          for(car in cars){
+            var li = document.createElement('li');
+            li.innerHTML = cars[car];
+            ul.appendChild(li);
+          }
+      }
+
+    </script>
+  </head>
+  <body onload="makeWebCall()">
+    <u> This denotes underline </u>
+    <input type="text" id="textSomeData" onkeyup="changeLable(this,myLabel)"/>
+    <label id="myLabel"></label>
+    <input type="button" value="Okay" onclick="clicked()"/>
+
+    <ul id="ulCar"></ul>
+  </body>
+</html>
