@@ -33,6 +33,18 @@ public class MainActivity extends AppCompatActivity {
                 showDialog(MyDialog.TAG_TIME_PICKER);
             }
         });
+        findViewById(R.id.btnProgress).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showDialog(MyDialog.TAG_PROGRESS);
+            }
+        });
+        findViewById(R.id.btnCustom).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showDialog(MyDialog.TAG_CUSTOM);
+            }
+        });
     }
 
     private void showDialog(String tag){

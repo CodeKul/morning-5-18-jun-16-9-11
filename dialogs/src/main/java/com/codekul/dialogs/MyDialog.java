@@ -2,12 +2,15 @@ package com.codekul.dialogs;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;
+import android.app.ProgressDialog;
 import android.app.TimePickerDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AlertDialog;
+import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.DatePicker;
 import android.widget.TimePicker;
 import android.widget.Toast;
@@ -34,6 +37,10 @@ public class MyDialog extends DialogFragment{
             dialog = createDatePickerDialog();
         if(getTag().equals(TAG_TIME_PICKER))
             dialog = createTimePickerDialog();
+        if(getTag().equals(TAG_PROGRESS))
+            dialog = createProgressDialog();
+        if(getTag().equals(TAG_CUSTOM))
+            dialog = createCustomDialog();
 
         return dialog;
     }
@@ -96,6 +103,46 @@ public class MyDialog extends DialogFragment{
                 },10,50,false);
 
         return timePicker;
+    }
+
+    private ProgressDialog createProgressDialog(){
+
+        ProgressDialog progressDialog =
+                new ProgressDialog(getActivity());
+        progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+        progressDialog.setTitle("Title");
+        progressDialog.setMessage("Message");
+        progressDialog.setIcon(R.mipmap.ic_launcher);
+        progressDialog.show();
+
+        for(int i = 0; i < 100 ;i++){
+            progressDialog.setProgress(i);
+        }
+
+        return progressDialog;
+    }
+
+    private AlertDialog createCustomDialog(){
+
+        AlertDialog.Builder builder =
+                new AlertDialog.Builder(getActivity());
+
+        View view = LayoutInflater.from(getContext())
+                .inflate(R.layout.custom_dialog,null,false);
+
+        AlertDialog dialog = builder.create();
+        dialog.setView(view);
+
+        view.findViewById(R.id.btnLogin)
+                .setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                mt("Dialog Login");
+            }
+        });
+
+        return dialog;
     }
 
     private void mt(String text){
