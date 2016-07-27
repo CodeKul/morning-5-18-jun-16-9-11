@@ -1,1 +1,1 @@
-include ':app', ':customviews', ':viewanimations', ':activitylifecycle', ':providingresources', ':handlingruntimechangessecond', ':fragments'
+include ':app', ':customviews', ':viewanimations', ':activitylifecycle', ':providingresources', ':handlingruntimechangessecond', ':fragments', ':toastnotification', ':statusbarnotification', ':dialogs', ':assestsandresources', ':intentandintentfilters', ':broadcastreceivers', ':sharedpreferences', ':filehandling', ':sqlite', ':contentproviders', ':contactapp', ':services', ':asynctask', ':esp8266', ':myapplication', ':navigationdrawer'

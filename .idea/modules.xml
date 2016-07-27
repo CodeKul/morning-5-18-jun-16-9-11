@@ -5,10 +5,26 @@
       <module fileurl="file://$PROJECT_DIR$/AdapterViews3.iml" filepath="$PROJECT_DIR$/AdapterViews3.iml" />
       <module fileurl="file://$PROJECT_DIR$/activitylifecycle/activitylifecycle.iml" filepath="$PROJECT_DIR$/activitylifecycle/activitylifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assestsandresources/assestsandresources.iml" filepath="$PROJECT_DIR$/assestsandresources/assestsandresources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asynctask/asynctask.iml" filepath="$PROJECT_DIR$/asynctask/asynctask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcastreceivers/broadcastreceivers.iml" filepath="$PROJECT_DIR$/broadcastreceivers/broadcastreceivers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contactapp/contactapp.iml" filepath="$PROJECT_DIR$/contactapp/contactapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contentproviders/contentproviders.iml" filepath="$PROJECT_DIR$/contentproviders/contentproviders.iml" />
       <module fileurl="file://$PROJECT_DIR$/customviews/customviews.iml" filepath="$PROJECT_DIR$/customviews/customviews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialogs/dialogs.iml" filepath="$PROJECT_DIR$/dialogs/dialogs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/esp8266/esp8266.iml" filepath="$PROJECT_DIR$/esp8266/esp8266.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filehandling/filehandling.iml" filepath="$PROJECT_DIR$/filehandling/filehandling.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragments/fragments.iml" filepath="$PROJECT_DIR$/fragments/fragments.iml" />
       <module fileurl="file://$PROJECT_DIR$/handlingruntimechangessecond/handlingruntimechangessecond.iml" filepath="$PROJECT_DIR$/handlingruntimechangessecond/handlingruntimechangessecond.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intentandintentfilters/intentandintentfilters.iml" filepath="$PROJECT_DIR$/intentandintentfilters/intentandintentfilters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MaterialDsign/myapplication.iml" filepath="$PROJECT_DIR$/MaterialDsign/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/navigationdrawer/navigationdrawer.iml" filepath="$PROJECT_DIR$/navigationdrawer/navigationdrawer.iml" />
       <module fileurl="file://$PROJECT_DIR$/providingresources/providingresources.iml" filepath="$PROJECT_DIR$/providingresources/providingresources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/services.iml" filepath="$PROJECT_DIR$/services/services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharedpreferences/sharedpreferences.iml" filepath="$PROJECT_DIR$/sharedpreferences/sharedpreferences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlite/sqlite.iml" filepath="$PROJECT_DIR$/sqlite/sqlite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/statusbarnotification/statusbarnotification.iml" filepath="$PROJECT_DIR$/statusbarnotification/statusbarnotification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toastnotification/toastnotification.iml" filepath="$PROJECT_DIR$/toastnotification/toastnotification.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewanimations/viewanimations.iml" filepath="$PROJECT_DIR$/viewanimations/viewanimations.iml" />
     </modules>
   </component>
