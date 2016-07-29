@@ -1,0 +1,10 @@
+{
+  "name" : "android",
+  "course" : "okay",
+  "age": 13,
+  "array" : [
+    "India",
+    "China",
+    "Japan"
+  ]
+}
