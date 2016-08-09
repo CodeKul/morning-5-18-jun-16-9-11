@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Telephony</string>
+    <string name="btnInfo">Info</string>
+    <string name="btnSms">Sms</string>
+</resources>
